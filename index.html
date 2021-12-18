@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P6||105218032</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Permanent+Marker&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="center">Tagihan Listrik</h1>
+    <br />
+    <form id="Pelanggan" onsubmit="return inputpelanggan()">
+      <div class="center">
+        <table>
+          <tr>
+            <th>
+              <label for="np">Nama Pelanggan</label>
+            </th>
+            <th>
+              <input type="text" name="np" id="np" />
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <label for="">Katergori</label>
+            </th>
+            <th>
+              <input type="text" name="kat" id="kat" />
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <label for="">Jumlah Pemakaian</label>
+            </th>
+            <th>
+              <input type="text" name="jp" id="jp" />
+            </th>
+          </tr>
+        </table>
+        <br /><br /><br />
+      </div>
+      <div class="center">
+        <button class="center button button1"><b>Submit</b></button>
+      </div>
+    </form>
+    <h2 class="center">Rincian Tagihan</h2>
+    <div class="center">
+      <h2>Saudara :</h2>
+      <h2 id="nama"></h2>
+    </div>
+    <div class="center">
+      <table id="tagihan">
+        <tr>
+          <th>Jumlah</th>
+          <th>Tarif per KWH</th>
+          <th>Abodemen</th>
+          <th>Sub Total</th>
+        </tr>
+        <tr>
+          <td id="no"></td>
+          <td id="out"></td>
+          <td id="abodemen"></td>
+          <td id="subTot"></td>
+        </tr>
+
+        <tr>
+          <td colspan="3">Sub Total</td>
+          <td id="hSubTot"></td>
+        </tr>
+
+        <tr>
+          <td colspan="3">Pajak</td>
+          <td id="hPajak"></td>
+        </tr>
+
+        <tr>
+          <td colspan="3">Bayar</td>
+          <td id="hBayar"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

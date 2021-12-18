@@ -1,0 +1,76 @@
+body {
+  background-color: #fff8dc;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Special Elite", cursive;
+}
+h2 {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 8px double black;
+  border-radius: 8px;
+}
+
+th {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  background-color: #ffb6c1;
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: #ffe9ec;
+}
+tr {
+  background-color: #ffccd4;
+}
+tr:hover {
+  background-color: #ddd;
+}
+td,
+th {
+  border: 1px double white;
+  padding: 8px;
+}
+
+input {
+  background-color: #ffb6c1;
+  border: 0px;
+}
+.button {
+  background-color: #ffb6c1;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #ffb6c1;
+}
+
+.button1:hover {
+  background-color: #ffb6c1;
+  color: white;
+}
