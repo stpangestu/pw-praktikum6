@@ -20,7 +20,7 @@
      alert("‘isi jumlah pemakaian!’");
      return false;
    }
-   if (jp.value > 31){
+   if (jp.value > 30){
      alert("‘Jumlah hari melebihi kenyataan!!!’,");
      return false;
    }
